@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "name": "munchmates",
+  "description": "The next best way to get your next meal",
   "version": "0.0.16",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Luke <lburbidg@ucsd.edu>",
   "license": "MIT",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
@@ -26,6 +26,7 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "eslint": "^6.7.2"
   }
 }
