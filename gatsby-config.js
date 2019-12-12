@@ -5,7 +5,13 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `Munchmates`,
-    siteTitleAlt: `Munchmates`
+    siteTitleAlt: `Munchmates`,
+    siteHeadline: `Munchmates`,
+    siteUrl: `https://www.munchmates.club`,
+    siteDescription: `Munchmates`,
+    siteLanguage: `English`,
+    siteImage: ``,
+    author: `Munchmates`
   },
   plugins: [
     {
@@ -43,6 +49,21 @@ module.exports = {
       }
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 10,
+              showCaptions: true
+            }
+          }
+        ]
+      }
+    }
   ]
 };
