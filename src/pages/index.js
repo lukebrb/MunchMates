@@ -8,7 +8,7 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/andrew.jpg'
 import pic03 from '../assets/images/david.jpg'
 import pic04 from '../assets/images/hayden.jpg'
-import pic05 from '../assets/images/luke.jpg'
+import luke from '../assets/images/luke.jpg'
 import pic06 from '../assets/images/kirubel.jpg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic10 from '../assets/images/pic10.jpg'
@@ -106,7 +106,7 @@ const Index = props => (
             </p>
           </header>
         </article>
-        <article style={{ backgroundImage: `url(${pic05})` }}>
+        <article style={{ backgroundImage: `url(${luke})` }}>
           <header className="major">
             <h3>Luke</h3>
             <p>
