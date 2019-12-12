@@ -1,40 +1,36 @@
 {
-  "private": true,
-  "name": "munchmates",
-  "description": "The next best way to get your next meal",
-  "version": "0.0.16",
-  "author": "Luke <lburbidg@ucsd.edu>",
+  "name": "gatsby-starter-forty-v2",
+  "description": "Gatsby Starter - Forty V2",
+  "version": "1.0.0",
+  "author": "Hunter Chang",
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "gatsby": "^2.15.14",
+    "gatsby-plugin-manifest": "^2.2.16",
+    "gatsby-plugin-offline": "^3.0.6",
+    "gatsby-plugin-react-helmet": "^3.1.7",
+    "gatsby-plugin-sass": "^2.1.14",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
-  "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.0.13",
-    "gatsby": "^2.13.72",
-    "gatsby-plugin-google-analytics": "^2.1.8",
-    "gatsby-plugin-manifest": "^2.2.6",
-    "gatsby-plugin-netlify": "^2.1.6",
-    "gatsby-plugin-offline": "^2.2.7",
-    "gatsby-plugin-sharp": "^2.3.7",
-    "gatsby-remark-images": "^3.1.37",
-    "gatsby-transformer-remark": "^2.6.42",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "eslint": "^6.7.2",
-    "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.17.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
