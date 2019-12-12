@@ -302,6 +302,13 @@ const Index = props => (
             <div className="inner">
               <header className="major">
                 <h3>The Final Prototype</h3>
+                <Link
+                  to={
+                    'https://www.figma.com/file/IyH6GNtjFm3pnaEq1hYCaV/MunchMates-Prototype?node-id=20%3A136'
+                  }
+                >
+                  View on Figma
+                </Link>
               </header>
               <p>
                 For our final prototype, we developed a high fidelity mockup on
