@@ -13,6 +13,7 @@ import pic06 from '../assets/images/kirubel.jpg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import prototypeGif from '../assets/images/full-walkthrough.gif'
+import prototypeVideo from '../assets/images/Full-walkthrough.mp4'
 import prototype from '../assets/images/prototype.jpg'
 
 const Index = props => (
@@ -288,12 +289,14 @@ const Index = props => (
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
-            <img
-              src={prototypeGif}
-              alt=""
-              style={{ height: '70vh', width: 'auto' }}
-            />
+          <Link to="/" className="image">
+            <video
+              src={prototypeVideo}
+              autoPlay={true}
+              loop
+              muted={true}
+              style={{ height: '100%', width: 'auto' }}
+            ></video>
           </Link>
           <div className="content">
             <div className="inner">
